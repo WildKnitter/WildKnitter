@@ -27,13 +27,13 @@
 /* Extra-Small devices (landscape phones, 576px and down) */
 
 @media (max-width: 576px) {
-  #picture_large {
+  .picture_large {
     display: none;
   }
-  #picture_small {
+  .picture_small {
     display: none;
   }
-  #picture_tiny {
+  .picture_tiny {
     display: block;
   }
 }
@@ -41,13 +41,13 @@
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {
-  #picture_large {
+  .picture_large {
     display: none;
   }
-  #picture_small {
+  .picture_small {
     display: block;
   }
-  #picture_tiny {
+  .picture_tiny {
     display: none;
   }
 }
@@ -55,13 +55,13 @@
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
-  #picture_large {
+  .picture_large {
     display: block;
   }
-  #picture_small {
+  .picture_small {
     display: none;
   }
-  #picture_tiny {
+  .picture_tiny {
     display: none;
   }
 }
@@ -69,13 +69,13 @@
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
-  #picture_large {
+  .picture_large {
     display: block;
   }
-  #picture_small {
+  .picture_small {
     display: none;
   }
-  #picture_tiny {
+  .picture_tiny {
     display: none;
   }
 }
@@ -83,13 +83,13 @@
 /* Extra large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {
-  #picture_large {
+  .picture_large {
     display: block;
   }
-  #picture_small {
+  .picture_small {
     display: none;
   }
-  #picture_tiny {
+  .picture_tiny {
     display: none;
   }
 }
@@ -109,6 +109,53 @@ header {
   text-align: center;
 }
 
+body {
+  background-color: lavender;
+  height: 100%;
+  background-image: radial-gradient(white, lavender, #DCD0E5);
+}
+
+/* Bootstrap CSS for forms from Bootstrap link reference signin.css */
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="userName"] {
+  margin-bottom: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* Formatting for the Footer */
+
 footer {
+  clear: left;
+  border-top: thin solid purple;
   text-align: right;
 }
