@@ -1,0 +1,112 @@
+/* This is an additional stylesheet for WildKnitter site*/
+
+/* Stylesheet code from the Bootstrap Jumbotron template */
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+/* Bootstrap Jumbotron template style code end */
+
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 2.5rem;
+}
+/* Header Formatting end */
+
+/* Fix links so that they are underlined when one hovers over them */
+
+.nav-link:hover, .nav-link:focus {
+  text-decoration: underline;
+}  
+
+/* Extra-Small devices (landscape phones, 576px and down) */
+
+@media (max-width: 576px) {
+  #picture_large {
+    display: none;
+  }
+  #picture_small {
+    display: none;
+  }
+  #picture_tiny {
+    display: block;
+  }
+  
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+  #picture_large {
+    display: none;
+  }
+  #picture_small {
+    display: block;
+  }
+  #picture_tiny {
+    display: none;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+  #picture_large {
+    display: block;
+  }
+  #picture_small {
+    display: none;
+  }
+  #picture_tiny {
+    display: none;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+  #picture_large {
+    display: block;
+  }
+  #picture_small {
+    display: none;
+  }
+  #picture_tiny {
+    display: none;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+  #picture_large {
+    display: block;
+  }
+  #picture_small {
+    display: none;
+  }
+  #picture_tiny {
+    display: none;
+  }
+}
+
+/* Formatting for the Header */
+header {
+  text-align: center;
+}
+
+footer {
+  text-align: right;
+}
