@@ -29,10 +29,10 @@
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="aboutme.html">About Me</a>
+                    <a class="nav-link disabled" href="aboutme.html">About Me<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="login.html">Login<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="login.html">Login</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Register.html">Register</a>
@@ -58,58 +58,59 @@
     </div>
     <!--Junbotron heading end-->
 
-    <div class="container">
-        <!-- 3 columns -->
-        <div class="row">
-            <div class="col-md-4" id="imgknittedgloves">
-            </div>
-            <div class="col-md-4">
-                <!--Login Form-->
-                <form method="get" action="patterns.html" class="form-signin">
-                <!-- post would be the correct method, normally.
-                <form method="post" action="patterns.html" class="form-signin">
-                -->
-                    <h1 class="h3 mb-3 font-weight-normal"><strong>Welcome Back!</strong></h1>
-                    <h4><a href="index.html">Home</a> / Login</h4>
+<!--User Interaction Page starts -->
+<main>
+<div class="text-center">
+  <h2 class="display-6 font-italic">Knitting Patterns</h2>
+  <p class="lead">Select a pattern, select a type, select a quantity</p>
+</div>
 
-                    <label for="userName">User Name: </label>
-                    <input type="text" id="userName" class="form-control" placeholder="User Name" required autofocus>
-                    <br />
-
-                    <label for="inputPassword">Password: </label>
-                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-
-                    <div class="checkbox mb-3">
-                        <label>
-                            <input type="checkbox" value="remember-me"> Remember me
-                        </label>
-                    </div>
-
-                   <div id="buttongroup" class="container" display="inline"> 
-                        <button class="btn btn-sm btn-primary" type="submit">Submit</button>
-                        <button class="btn btn-sm btn-light" type="reset">Reset</button>
-                   </div> 
-                    <br />
-                    <p><strong>Don't have an account yet?</strong></p>
-                    <p><strong>Register Here!</strong></p>
-
-                    <div id="buttonreg" class="container">
-                        <a href="register.html" role="button" class="btn btn-lg btn-light btn-sm">Register</a>
-                    </div>
-                </form>
-                <!--Login Form End-->
-            </div>
-            <div class="col-md-4" id="imgredcabledscarf">
-            </div>
+<div class="container">
+  <div class="card-deck mb-3 text-center">
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Cabled Cowl</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">$2.00</h1>
+        <div id="imgredcabledscarfprice">
         </div>
+        <button type="button" class="btn btn-lg btn-block btn-outline-primary">Click to see more</button>
+      </div>
     </div>
-    <!-- 3 columns end -->
-    </div> <!-- /container end-->
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Special Olympics Scarf</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">$2.00</h1>
+        <div id="imgspecialolympicsscarfprice">
+        </div>
+        <button type="button" class="btn btn-lg btn-block btn-primary">Click to see more</button>
+      </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Enterprise</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>30 users included</li>
+          <li>15 GB of storage</li>
+          <li>Phone and email support</li>
+          <li>Help center access</li>
+        </ul>
+        <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+      </div>
+    </div>
+  </div>
+
+</main> <!--User Interaction Page ends -->
 
     <footer class="container">
         <p>&copy; Pamela W. Belknap 2019</p>
     </footer>
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

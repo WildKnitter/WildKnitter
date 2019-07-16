@@ -33,9 +33,9 @@ header {
 }
 
 body {
-  background-color: lavender;
+  background-color: lavender; 
   height: 100%;
-  background-image: radial-gradient(white, lavender, #DCD0E5);
+  background-image: radial-gradient(white, lavender, #DCD0E5); 
 }
 
 /* Formatting for the Footer */
@@ -60,7 +60,7 @@ footer {
     background-image: url("../img/knittedgloves_tiny.jpg");
     width: 100px;
     height: 100px;
-    /* background-color: yellow; */
+    /* background-color: yellow; */ 
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
@@ -74,6 +74,25 @@ footer {
     margin-right: auto;
     margin-left: auto;
   }
+   #imgredcabledscarfprice {
+    background-image: url("../img/redcabledscarf_small.jpg");
+    width: 200px;
+    height: 200px;
+    /* background-color: yellow; */
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #imgspecialolympicsscarfprice {
+    background-image: url("../img/blueandlightbluescarf_small.jpg");
+    width: 200px;
+    height: 200px;
+    /* background-color: yellow; */
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }  
   #imglogcabin {
     background-image: url("../img/logcabin_tiny.jpg");
     width: 60px;
@@ -124,6 +143,26 @@ footer {
     margin-right: auto;
     margin-left: auto;
   }
+  #imgredcabledscarfprice {
+    background-image: url("../img/redcabledscarf_tiny.jpg");
+    width: 100px;
+    height: 100px;
+    /* background-color: orange; */
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #imgspecialolympicsscarfprice {
+    background-image: url("../img/blueandlightbluescarf_tiny.jpg");
+    width: 100px;
+    height: 100px;
+    /* background-color: orange; */
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   #imglogcabin {
     background-image: url("../img/logcabin_small.jpg");
     width: 100px;
@@ -174,7 +213,25 @@ footer {
     margin-right: auto;
     margin-left: auto;
   }
-  #imglogcabin {
+  #imgredcabledscarfprice {
+    background-image: url("../img/redcabledscarf_tiny.jpg");
+    width: 100px;
+    height: 100px;
+    /* background-color: blue; */
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #imgspecialolympicsscarfprice {
+    background-image: url("../img/blueandlightbluescarf_tiny.jpg");
+    width: 100px;
+    height: 100px;
+    /* background-color: blue; */
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+    #imglogcabin {
     background-image: url("../img/logcabin_large.jpg");
     width: 219px;
     height: 219px;
@@ -219,6 +276,24 @@ footer {
     background-image: url("../img/redcabledscarf_large.jpg");
     width: 300px;
     height: 300px;
+    /*background-color: green; */
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #imgredcabledscarfprice {
+    background-image: url("../img/redcabledscarf_small.jpg");
+    width: 200px;
+    height: 200px;
+    /*background-color: green; */
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #imgspecialolympicsscarfprice {
+    background-image: url("../img/blueandlightbluescarf_small.jpg");
+    width: 200px;
+    height: 200px;
     /*background-color: green; */
     background-repeat: no-repeat;
     margin-right: auto;
@@ -273,6 +348,26 @@ footer {
     margin-right: auto;
     margin-left: auto;
   }
+  #imgredcabledscarfprice {
+    background-image: url("../img/redcabledscarf_large.jpg");
+    width: 300px;
+    height: 300px;
+    /* background-color: red; */
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #imgspecialolympicsscarfprice {
+    background-image: url("../img/blueandlightbluescarf_large.jpg");
+    width: 300px;
+    height: 300px;
+    /* background-color: red; */
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   #imglogcabin {
     background-image: url("../img/logcabin_large.jpg");
     width: 219px;
