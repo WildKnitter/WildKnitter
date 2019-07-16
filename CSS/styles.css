@@ -1,11 +1,5 @@
 /* This is an additional stylesheet for WildKnitter site*/
 
-
-#imgknittedgloves {
-  background-image: url("img/knittedgloves_large.jpg");  
-}
-
-
 /* Stylesheet code from the Bootstrap Jumbotron template */
 
 .bd-placeholder-img {
@@ -41,8 +35,16 @@ header {
 body {
   background-color: lavender;
   height: 100%;
-  background-image: radial-gradient(white, lavender, #DCD0E5);
+  background-image: radial-gradient(white, lavender, #DCD0E5); 
 }
+
+/* Formatting for the Footer */
+footer {
+  clear: left;
+  border-top: thin solid purple;
+  text-align: right;
+}
+
 /* Fix links so that they are underlined when one hovers over them */
 
 .nav-link:hover,
@@ -54,36 +56,47 @@ body {
 
 @media (max-width: 576px) {
   #imgknittedgloves {
-    background-image: url(img/knittedgloves_tiny.jpg);
+    background-image: url("../img/knittedgloves_tiny.jpg");
     width: 100px;
     height: 100px;
-    background-color: white;
+    /* background-color: yellow; */
     background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
   }
+
   #imgredcabledscarf {
-    background-image: url(img/redcabledscarf_tiny.jpg);
+    background-image: url("../img/redcabledscarf_tiny.jpg");
     width: 100px;
     height: 100px;
-    background-color: white;
+    /* background-color: yellow; */
     background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
   }
+}
 
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {
   #imgknittedgloves {
-    background-image: url(img/knittedgloves_tiny.jpg);
-    width: 100px;
-    height: 100px;
-    background-color: white;
+    background-image: url("../img/knittedgloves_small.jpg");
+    width: 200px;
+    height: 200px;
+    /* background-color: orange; */
     background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
   }
+
   #imgredcabledscarf {
-    background-image: url(img/redcabledscarf_tiny.jpg);
-    width: 100px;
-    height: 100px;
-    background-color: white;
+    background-image: url("../img/redcabledscarf_small.jpg");
+    width: 200px;
+    height: 200px;
+    /* background-color: orange; */
     background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -91,18 +104,22 @@ body {
 
 @media (min-width: 768px) {
   #imgknittedgloves {
-    background-image: url(img/knittedgloves_tiny.jpg);
-    width: 100px;
-    height: 100px;
-    background-color: white;
+    background-image: url("../img/knittedgloves_small.jpg");
+    width: 200px;
+    height: 200px;
+    /* background-color: blue; */
     background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
   }
   #imgredcabledscarf {
-    background-image: url(img/redcabledscarf_tiny.jpg);
-    width: 100px;
-    height: 100px;
-    background-color: white;
+    background-image: url("../img/redcabledscarf_small.jpg");
+    width: 200px;
+    height: 200px;
+    /* background-color: blue; */
     background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -110,19 +127,22 @@ body {
 
 @media (min-width: 992px) {
   #imgknittedgloves {
-    background-color: green;
-    background-image: url(img/knittedgloves_tiny.jpg);
-    width: 100px;
-    height: 100px;
-    background-color: white;
+    background-image: url("../img/knittedgloves_large.jpg");
+    width: 300px;
+    height: 300px;
+    /* background-color: green; */
     background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
   }
   #imgredcabledscarf {
-    background-image: url(img/redcabledscarf_tiny.jpg);
-    width: 100px;
-    height: 100px;
-    background-color: white;
+    background-image: url("../img/redcabledscarf_large.jpg");
+    width: 300px;
+    height: 300px;
+    /*background-color: green; */
     background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -130,24 +150,24 @@ body {
 
 @media (min-width: 1200px) {
  #imgknittedgloves {
-    background-image: url("img/knittedgloves_large.jpg");
-    background-color: red;
+    background-image: url("../img/knittedgloves_large.jpg");
     width: 300px !important;
     height: 300px !important;
-    background-color: white;
+    /* background-color: red; */
     background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
   }
   #imgredcabledscarf {
-    background-image: url(img/redcabledscarf_large.jpg);
+    background-image: url("../img/redcabledscarf_large.jpg");
     width: 300px;
     height: 300px;
-    background-color: white;
+    /* background-color: red; */
     background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
-*/
-
-
 
 /* Bootstrap CSS for forms from Bootstrap link reference signin.css */
 
@@ -186,10 +206,8 @@ body {
   border-top-right-radius: 0;
 }
 
-/* Formatting for the Footer */
-
-footer {
-  clear: left;
-  border-top: thin solid purple;
-  text-align: right;
+.form-signin input[type="email"] {
+  margin-bottom: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
