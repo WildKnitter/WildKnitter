@@ -1,5 +1,10 @@
 /* This is an additional stylesheet for WildKnitter site*/
 
+/* Hide Success and Danger Msg Elements on page load */
+.hidden {
+  display: none;
+}
+
 /* Stylesheet code from the Bootstrap Jumbotron template */
 
 .bd-placeholder-img {
